@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cart</title>
+
+    <link rel="stylesheet" href="./styles/cart.css" />
+
+    <link rel="icon" href="//static.tomtop.com/tomtop/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- <h1>Cart</h1> -->
+
+    <div id="parent">
+        <div id="top-1">
+            <div>
+                <img src="https://static.tomtop.com/tomtop/cart/images/logo.png?4.1.31" alt="" />
+            </div>
+            <div id="top-2">
+                <ul class="shop_process">
+                    <li class="current_state"><span>1</span>SHOPPING CART</li>
+                    <!--“current_state1”-->
+                    <li class="nocurrent_state"><span>2</span>SHIPPING &amp; PLACE ORDER</li>
+                    <li class="normal_state"><span>3</span>PAYMENT</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="total_items">
+            <div><h1>Your Shopping Cart</h2></div>
+
+                <div><p id="p"style="font-size:25px"></p></div>
+        </div>
+
+
+            <main>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Item Details</th>
+                      <th>Name Of Item</th>
+                      <th>Remove Item</th>
+                      <th>Price</th>
+                      <th>Quantity</th>
+                      <th>Showing Availability at Pincode</th>
+                      <th>Subtotal</th>
+                    </tr>
+                  </thead>
+                  <tbody id="body"></tbody>
+                </table>
+              </main>
+    </div>
+
+    <div class="buttonalign"><a href="placeorder.html"><button class="button"></button></a></div>
+
+    <div class="backbutton"><a href="index.html"><button>Continue Shopping</button></a></div>
+</body>
+
+</html>
+
+<script src="./scripts/cart.js"></script>

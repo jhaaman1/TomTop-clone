@@ -1,0 +1,684 @@
+#navbar{
+    width: 100%;
+    /* border: 1px solid; */
+    height: 300px;
+}
+
+#nav-topimg img{
+  width: 100%;
+}
+
+#nav1{
+    width: 100%;
+    height: 40%;
+    /* border: 1px solid red; */
+    background-color: #f0f0f0 ;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#smallimg{
+    width: 12%;
+    height: 50%;
+    /* border: 1px solid; */
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+#smallimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#search{
+    /* border: 1px solid green; */
+    width: 35%;
+    height: 100%;
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+    display: flex;
+    gap: 5%;
+ 
+}
+
+
+
+#word{
+    width: 20%;
+    height: 30%;
+    /* border: 1px solid red; */
+    margin-top: 10%;
+    display: flex;
+    gap: 5%;
+}
+
+
+
+#loginarea{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+#searchinput{
+    /* border: 1px solid palevioletred; */
+    width: 80%;
+    margin-top: 9%;
+    
+}
+#inp{
+    width: 85%;
+    height: 50%;
+    border: 0;
+}
+
+#searchbar{
+    width: 9%;
+    height: 50%;
+    background-color: #4d82b8;
+    border: 0;
+}
+
+#sign{
+    /* border: 1px solid; */
+    margin-top:20px ;
+    
+}
+
+#sign a {
+    float: bottom;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+#cart a {
+    float: bottom;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+   
+    /* margin-top:20px ; */
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  /* .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+  } */
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+#signin_button{
+    background-color: #4d82b8;
+}
+
+/* #fav{
+    border: 1px solid;
+} */
+
+/* #cart{
+    border: 1px solid;
+} */
+
+#nav2{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+/* #shopdepart{
+     border: 1px solid;  
+} */
+
+#category{
+    /* border: 1px solid green; */
+    display: flex;
+    
+}
+
+#a1 :hover{
+    color: #4d82b8;
+}
+
+
+#imgs{
+    /* border: 2px solid; */
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~body start~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.carousel-item{
+    height: 25rem;
+    background: #777;
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.slider{
+    width: 100%;
+    height: 30rem;
+    /* border: 2px solid red; */
+    background: url(https://img.tttcdn.com/advertising/2022/6/14/8eTmGB-87719767.jpg);
+    animation: slide 10s infinite;
+    }
+    @keyframes slide {
+    25%{
+        background: url(https://img.tttcdn.com/advertising/2022/6/14/8eTmGB-87719767.jpg);
+    }
+    50%{
+        background: url(https://img.tttcdn.com/advertising/2022/6/14/iOrgsC1880088374.jpg);
+    }
+    75%{
+        background: url(https://img.tttcdn.com/advertising/2022/6/14/1qnFBa-1271749542.jpg);
+    }
+    100%{
+        background: url(https://img.tttcdn.com/advertising/2022/6/14/GMjCgR-30615340.jpg);
+    }
+    
+    }
+
+/* Style the tab */
+.tab {
+    float: left;
+    /* border: 1px solid #ccc; */
+    background-color: #f1f1f1;
+    width: 15%;
+    height: 300px;
+    margin-left: 12%;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+    display: none;
+  }
+
+
+  #five_circle{
+    /* border: 2px solid; */
+    width: 80%;
+    height: 270px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    text-align: center;
+    margin-top: 1%;
+  }
+
+  #flashdeals{
+    width: 80%;
+    height: 270px;
+    margin: auto;
+    display: flex;
+    margin-top: 1%;
+  }
+
+  #slido{
+    /* border: 1px solid; */
+    height: 121%;
+    width: 80%;
+    text-align: center;
+
+  }
+
+  #sl img{
+    height: 50%;
+  }
+
+  #slider2_before{
+    margin-left: 10%;
+    /* border: 2px solid gray; */
+    margin-top: 5%;
+    
+  }
+
+  .left_arrow{
+    position: absolute;
+    font-size: 20px;
+    left: 5px;
+    top: 25%;
+    height: 35px;
+    width: 35px;
+    background: #777;
+    color: white;
+    /* border-radius: 50%; */
+    z-index: 99;
+    text-align: center;
+    line-height: 1.3;
+    border: 3px solid #777;
+    cursor: pointer;
+    transition: 3s;
+  }
+
+  .right_arrow{
+    position: absolute;
+    font-size: 20px;
+    right: 5px;
+    top: 25%;
+    height: 35px;
+    width: 35px;
+    background: #777;
+    color: white;
+    /* border-radius: 50%; */
+    z-index: 99;
+    text-align: center;
+    line-height: 1.3;
+    border: 3px solid #777;
+    cursor: pointer;
+    transition: 3s;
+  }
+
+  #slider2{
+    /* border: 2px solid; */
+    width: 80%;
+    height: 360px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    
+  }
+
+  .price{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 10px; */
+  }
+
+ 
+  #slider2 img{
+    height: 50%;
+    width: 80%;
+  }
+
+  #slider2 > div{
+    padding: 20px 30px ;
+    /* margin-bottom: 0px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    gap: 10px;
+    }
+    
+
+  .cart{
+    margin-left: 30px;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    }
+    
+    .cart:hover{
+    cursor: pointer;
+    }
+    
+
+    #slider3_before{
+        margin-left: 10%;
+        
+      }
+
+    #slider3{
+
+        /* border: 2px solid; */
+        width: 80%;
+        height: 360px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+
+    #slider3 > div{
+        /* padding: 20px 30px ; */
+        /* margin-bottom: 0px; */
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        gap: 20px;
+        }
+
+        #slider3 > div:hover{
+            cursor: pointer;
+
+        }
+
+
+        #some-text{
+            margin-left: 10%;
+        }
+
+        #consumer_electronics{
+          /* border: 2px solid; */
+          width: 80%;
+          height: 697px;
+          margin: auto;
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+          gap: 10px;
+         
+          
+        }
+
+        #consumer_electronics div{
+          /* border: 1px solid red; */
+          /* height: 30%; */
+        }
+
+        #pic1{
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+
+        #img_lenovo{
+          height: 70%;
+        }
+
+        #img_lenovo img{
+          height: 100%;
+          width: 100%;
+        }
+
+        #lenovo_pad{
+          text-align: center;
+        }
+
+        #bm1{
+          /* border: 1px solid gold; */
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+       
+
+        #sm1{
+          height: 30%;
+          display: flex;
+
+        }
+
+        #sm2{
+          height: 30%;
+          display: flex;
+        }
+
+        #sm3{
+          height: 30%;
+          display: flex;
+        }
+
+        #smart_devices{
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+
+        #bm2{
+          display: flex;
+          /* border: 2px solid rebeccapurple; */
+        
+        }
+
+
+        #sm21{
+          height: 10%;
+          /* border: 1px solid; */
+          
+        }
+
+        #sm21 img{
+          height: 50%;
+          width: 55%;
+        }
+
+        
+        #bm3{
+          display: flex;
+          /* border: 2px solid rebeccapurple; */
+        
+        }
+
+
+        #sm31{
+          height: 10%;
+          /* border: 1px solid; */
+          
+        }
+
+        #sm31 img{
+          height: 50%;
+          width: 79%;
+        }
+
+        
+        #bm4{
+          display: flex;
+          /* border: 2px solid rebeccapurple; */
+        
+        }
+
+
+        #sm41{
+          height: 10%;
+          /* border: 1px solid; */
+          
+        }
+
+        #sm41 img{
+          height: 50%;
+          width: 75%;
+        }
+
+
+        
+        #bm5{
+          display: flex;
+          /* border: 2px solid rebeccapurple; */
+        
+        }
+
+
+        #sm51{
+          height: 10%;
+          /* border: 1px solid; */
+          
+        }
+
+        #sm51 img{
+          height: 50%;
+          width: 110%;
+        }
+
+
+
+        #top_brands{
+          width: 80%;
+          height: 200px;
+          /* border: 1px solid  ; */
+          margin: auto;
+          display: grid;
+          grid-template-columns: repeat(7,1fr);
+          grid-template-rows: auto;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+
+        #top_brands img{
+          width: 100%;
+          height: 90%;
+        }
+
+        #prod_like{
+          margin-left: 10%;
+          margin-top: 3%;
+        }
+
+          #container{
+            width: 80%;
+            height: auto;
+            display: grid;
+            margin-top: 5%;
+            margin-left: 10%;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: auto;
+            gap: 20px;
+            /* border: 2px solid; */
+          }
+
+          #container div{
+            /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+          }
+
+
+          #footer{
+            width: 100%;
+            height: 500px;
+            /* border: 2px solid; */
+          }
+
+          #footer-1{
+            width: 80%;
+            height: 500px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+            margin: auto;
+            margin-top: 20px;
+            /* border: 2px solid red; */
+          }
+
+          #footer-top{
+            width: 100%;
+            height: 20%;
+            /* border: 1px solid green; */
+            display: flex;
+            justify-content: space-between;
+          }
+
+          #footer-top11{
+            display: flex;
+            /* text-align: center; */
+            gap: 10px;
+          }
+
+          
+          #footer-top12{
+            display: flex;
+            /* text-align: center; */
+            gap: 20px;
+          }
+
+          #footer-mid{
+            /* border: 1px solid; */
+            width: 100%;
+            height: 65%;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            
+          }
+
+          #footer-mid1{
+            margin-left: 5%;
+            text-decoration: black;
+          }
+
+           #footer-below1{
+            /* border: 1px solid; */
+            width: 80%;
+            display: flex;
+            gap: 10px;
+            margin: auto;
+          } 
+
+
+         
+          body{
+            font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+          }
+
+
+      
+          

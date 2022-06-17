@@ -1,0 +1,72 @@
+#signup{
+    /* border:  2px solid; */
+    width: 60%;
+    height: 700px;
+    margin: auto;
+}
+
+.login_logo{
+    text-align: center;
+}
+
+.form_div{
+    /* border:  2px solid; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+}
+
+.form_div input{
+    width: 70%;
+    height: 30px;
+    margin-left: 15%;
+}
+
+.checkbox{
+    margin-left: 15%;
+}
+
+.agreee{
+    width: 5% !important;
+    height: auto !important;
+    margin-left: 0% !important;
+    margin-top: 5%;
+    /* font-size: small; */
+}
+
+
+
+/* element.style {
+}
+.m_login .agress_c input {
+    margin-right: 10px;
+} */
+button, input[type=button], input[type=reset], input[type=submit], input[type=radio], input[type=checkbox], label, select {
+    cursor: pointer;
+}
+.button, button, input, pre, select, textarea {
+    font-size: 13px;
+    outline: 0;
+}
+button, input, pre, select, textarea {
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height: 16px;
+    box-shadow: none!important;
+}
+
+#submit{
+    background-color: 
+    #ffa620;
+    color: white;
+    margin-left: 15%;
+    margin-top: 2%;
+    width: 73%;
+    /* height: 10%; */
+    border: 0;
+    border-radius: 10px;
+}
+
+body{
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}

@@ -1,0 +1,124 @@
+#upper{
+    border: 1px solid;
+    color: white;
+    background-color: black;
+    padding-left: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    /* border: 1px solid red; */
+}
+
+#payment{
+   width: 100%;
+   height: 600px;
+   /* border: 1px solid red; */
+   display: flex;
+}
+#payment > div:nth-child(1){
+    /* border: 1px solid; */
+    width: 20%;
+    height: 590px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.card{
+    padding-left: 30px;
+    /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
+    border: 1px solid;
+    
+}
+
+.card:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    /* height: 40px; */
+}
+
+#carddata{
+    /* border: 1px solid; */
+    height: 590px;
+    width: 60%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+#bankoffer{
+    width: auto;
+    height: 200px;
+    /* border: 1px solid; */
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    color: #01baf2;
+    padding-left: 30px;
+}
+
+#bankoffer > p{
+    color: gray;  
+    /* font-size:12px; */
+    
+}
+
+#bankoffer > h3{
+    padding-bottom: -20px;
+}
+
+#bankoffer > div{
+    /* border: 1px solid; */
+    width: 250px;
+    height: 120px;
+    display: flex;
+}
+
+#discount > div{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 100%;
+    background-color: teal;
+    color: white;
+    margin-top: -15px;
+}
+
+#discount img{
+    width: 70px;
+}
+
+
+#discount > div:nth-child(1){
+    width: 40%;
+}
+
+#text{
+    /* border: 1px solid; */
+    height: 40px;
+    margin-top: 10px;
+}
+
+#text > h3{
+    padding-left: 30px;
+
+}
+
+form{
+text-align: center;
+border: 1px solid black;
+width: 400px;
+margin:auto;
+height:220px;
+border-color: #ffd814;
+border-radius: 5px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+}
+
+form{
+  padding-top: 40px;
+  
+}
+input{
+  margin-top: 15px;
+}
+#input{
+  background-color: #e40046;
+  color:white;
+  padding: 5px;
+}

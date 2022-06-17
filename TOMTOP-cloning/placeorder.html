@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/placeorder.css">
+
+    <link rel="icon" href="//static.tomtop.com/tomtop/favicon.ico" type="image/x-icon">
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <title>Place Order-TomTop</title>
+</head>
+
+<body>
+
+    <div id="address">
+
+        <div id="top-1">
+            <div>
+                <img src="https://static.tomtop.com/tomtop/cart/images/logo.png?4.1.31" alt="" />
+            </div>
+            <div id="top-2">
+                <ul class="shop_process">
+                    <li class="current_state"><span>1</span>SHOPPING CART</li>
+                    <!--“current_state1”-->
+                    <li class="nocurrent_state"><span>2</span>SHIPPING &amp; PLACE ORDER</li>
+                    <li class="normal_state"><span>3</span>PAYMENT</li>
+                </ul>
+            </div>
+        </div>
+
+
+    <h2>Shipping Address</h2>
+
+
+
+        <button id="add" onclick="document.getElementById('id01').style.display='block'">Add Your Address</button>
+
+        <!-- The Modal (contains the Sign Up form) -->
+        <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                title="Close Modal">times;</span>
+            <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                    <h1> Enter Shipping Address</h1>
+                    
+                    <hr>
+                    <label for="text"><b>First Name</b></label>
+                    <input type="text" placeholder="Enter Name" name="FirstName" required>
+
+                    <label for="psw"><b>LastName</b></label>
+                    <input type="text" placeholder="Enter Password" name="psw" required><br><br>
+
+                    <label ><b>Street Address</b></label>
+                    <input type="Address" placeholder=" Enter Street Address" required><br><br>
+
+                    <label ><b>Enter city Name</b></label>
+                    <input type="Address" placeholder=" Enter city Name" required><br><br>
+
+                    <label ><b>State/Province/Region</b></label>
+                    <input type="Address" placeholder=" Enter State Name" required><br><br>
+
+                    <label>
+
+                    <label ><b>Enter Phone No</b></label>
+                    <input type="Address" placeholder=" Enter Phone Number" required><br><br>
+
+                    <label>
+
+                   
+
+                    <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                            class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signup" id="shiphere">Proceed for Payment</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
+
+<script src="./scripts/placeorder.js"></script>

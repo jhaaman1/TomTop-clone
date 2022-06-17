@@ -1,0 +1,74 @@
+#login_div{
+    /* border:  2px solid; */
+    width: 60%;
+    height: 700px;
+    margin: auto;
+}
+
+body{
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+.login_logo{
+    text-align: center;
+}
+
+#form_div_login{
+    /* border:  2px solid; */
+    width: 40%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+#logo{
+    display: flex;
+    gap: 20px;
+    margin-left: 34%;
+}
+
+
+#form_div_login input{
+    width: 70%;
+    height: 30px;
+    margin-left: 10%;                                                                                           
+    
+}
+
+#inp1{
+    margin-top: 8%;
+}
+
+p{
+    display: gray;
+}
+
+
+#sign_in{
+    width: 70%;
+    height: 10%;
+    margin-left: 10%;
+    background-color: 
+    #ffa620;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+#sign_in :hover{
+    cursor: pointer;
+}
+
+#new{
+    margin-top: 5%;
+    margin-left: 8%;
+    font-size: small;
+}
+
+#forgot{
+    font-size: small;
+    color: #777;
+    margin-right: 18%;
+    
+}

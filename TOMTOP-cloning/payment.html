@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="./styles/payment.css">
+
+    <link rel="icon" href="//static.tomtop.com/tomtop/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+ 
+
+
+    <div id="upper"><h2>Make Payment</h2></div>
+    <div id="payment">
+        <div id="paymode">
+            <div class="card">
+                <a href=""><h3>Credit Card</h3></a>
+            </div>
+            <div class="card">
+                <a href=""><h3>Debit Card</h3></a>
+            </div>
+            <div class="card">
+                <a href=""><h3>Net Banking</h3></a>
+            </div>
+            <div class="card">
+                <a href=""><h3>Cash On Delivery</h3></a>
+            </div>
+            <div class="card">
+                <a href=""><h3>EMI</h3></a>
+            </div>
+            <div class="card">
+                <a href=""><h3><e->Gift Voucher</e-></h3></a>
+            </div>
+            <div class="card">
+                <a href=""><h3>UPI</h3></a>
+            </div>
+        </div>
+        <div id="carddata">
+            <div id="bankoffer">
+              <h3 style="color: black;">1 Bank Offer</h3>   
+              <p>Get Discount on payment modes</p>
+              <div id="discount">
+                  <div>
+                      <img src="https://n2.sdlcdn.com/imgs/e/o/f/default-ecb09.png" alt="">
+                  </div>
+                  <div id="distext">
+                      <p>20% instant discount</p>
+                      <span>Using Ujjvan Debit Cards</span>
+                      <p>Rs 53 OFF - TNC</p>
+                  </div>
+              </div>
+            </div>
+            <div id="text"><h3>Pay Using Debit Card</h3></div>
+            <div>
+                <form action="">
+                    <label for="">Card Number :</label>
+                <input id="card" type="number" placeholder="Enter 16 digit card no"/>
+            <br>  
+              <label for="">CVV : </label>
+                <input id="cvv" type="password" placeholder=" Enter cvv"/>
+              
+                <br>
+                <label for="">Expiry Date : </label>
+                <input id="exp"  type="month" placeholder="Enter expiry date">
+              <br>
+            <label for="">Name : </label>
+            <input id="name"  type="text" placeholder="Enter Card Holder Name">
+            <br>
+            
+                <input id="input11" type="submit" value="checkout">
+            </form>
+            </div>
+            
+        </div>
+        
+    </div>
+
+
+
+</body>
+</html>
+
+<script src="./scripts/payment.js">
+
+</script>
